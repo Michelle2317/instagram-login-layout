@@ -1,0 +1,20 @@
+.signUp {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	margin-top: 10px;
+	font-size: var(--large-font);
+	justify-content: center;
+	border: 1px solid var(--light-gray);
+}
+
+.signUp a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 5px;
+	color: var(--blue);
+	text-decoration: none;
+	font-weight: 600;
+}

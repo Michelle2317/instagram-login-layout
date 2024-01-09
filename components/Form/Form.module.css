@@ -1,0 +1,85 @@
+.loginForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 268px;
+	background-color: var(--white);
+	border: 1px solid var(--light-gray);
+	border-radius: 2px;
+	padding: 20px 40px;
+}
+
+#logo {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 65%;
+}
+
+.inputFields {
+	background-color: var(--shadow-gray);
+	color: var(--darkest-gray);
+	border: 1px solid var(--light-gray);
+	width: 268px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	font-size: var(--regular-font);
+}
+
+.inputFields:focus {
+	outline: none;
+	border: 1px solid var(--darkest-gray);
+}
+
+.loginButton {
+	background-color: var(--blue);
+	color: var(--white);
+	border-radius: 5px;
+	font-size: var(--large-font);
+	width: 100%;
+	margin: 10px 0;
+	padding: 7px 0;
+	border: none;
+}
+
+.or {
+	display: flex;
+	font-size: var(--regular-font);
+	color: var(--darkest-gray);
+	font-weight: 600;
+	width: 100%;
+	align-items: center;
+	gap: 20px;
+}
+
+.line {
+	flex: 1;
+	background-color: var(--darkest-gray);
+	height: 1px;
+}
+
+.facebookLogin {
+	display: flex;
+	justify-content: center;
+	color: var(--fb-color);
+	text-decoration: none;
+	font-size: var(--large-font);
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.facebookLogin img {
+	width: 16px;
+	height: 16px;
+	padding-right: 8px;
+	padding-top: 2px;
+}
+
+.forgot {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+	color: var(--black);
+	font-size: var(--regular-font);
+	text-decoration: none;
+}

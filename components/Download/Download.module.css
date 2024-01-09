@@ -1,0 +1,18 @@
+.download {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.stores {
+	display: flex;
+	margin-top: 5px;
+	gap: 10px;
+}
+
+.stores img {
+	width: auto;
+	height: 40px;
+}
