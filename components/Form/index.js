@@ -1,13 +1,17 @@
 import styles from './Form.module.css'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Form() {
 	return (
 		<>
 			<div className={styles.loginForm}>
-				<img
+				<Image
 					id={styles.logo}
-					src="images/instagram-word.png"
+					src={'/images/instagram-word.png'}
 					alt="instagram"
+					width={175}
+					height={65}
 				/>
 				<form>
 					<input
@@ -28,13 +32,18 @@ export default function Form() {
 						<div className={styles.line}></div>
 					</div>
 
-					<a href="#" className={styles.facebookLogin}>
-						<img src={'/images/facebook-icon.png'} alt="facebook" />
+					<Link href='/' className={styles.facebookLogin}>
+						<Image
+							src={'/images/facebook-icon.png'}
+							alt="facebook"
+							width={16}
+							height={16}
+						/>
 						Log in with Facebook
-					</a>
-					<a className={styles.forgot} href="#">
+					</Link>
+					<Link className={styles.forgot} href='/'>
 						Forgot password?
-					</a>
+					</Link>
 				</form>
 			</div>
 		</>

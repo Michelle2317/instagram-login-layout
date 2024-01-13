@@ -12,14 +12,13 @@
 #logo {
 	margin-top: 20px;
 	margin-bottom: 30px;
-	width: 65%;
 }
 
 .inputFields {
 	background-color: var(--shadow-gray);
 	color: var(--darkest-gray);
 	border: 1px solid var(--light-gray);
-	width: 268px;
+	width: 90%;
 	padding: 10px;
 	margin-bottom: 10px;
 	border-radius: 2px;
@@ -34,12 +33,13 @@
 .loginButton {
 	background-color: var(--blue);
 	color: var(--white);
-	border-radius: 5px;
+	border-radius: 8px;
 	font-size: var(--large-font);
 	width: 100%;
-	margin: 10px 0;
+	margin: 5px 0;
 	padding: 7px 0;
 	border: none;
+	font-weight: 600;
 }
 
 .or {
@@ -69,8 +69,6 @@
 }
 
 .facebookLogin img {
-	width: 16px;
-	height: 16px;
 	padding-right: 8px;
 	padding-top: 2px;
 }

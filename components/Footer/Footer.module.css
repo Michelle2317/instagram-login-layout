@@ -1,4 +1,5 @@
 .footer {
+	margin-top: 65px;
 	margin-bottom: 40px;
 }
 
@@ -11,9 +12,9 @@
 .links a {
 	text-decoration: none;
 	font-family: var(--font-family);
-	font-size: var(--medium-font);
+	font-size: var(--regular-font);
 	color: var(--darkest-gray);
-	font-size: var(--medium-font);
+	font-size: var(--regular-font);
 	line-height: 18px;
 	margin: 0 8px 10px 8px;
 }
@@ -30,7 +31,7 @@
 	display: inline-block;
 	padding: 10px;
 	font-family: var(--font-family);
-	font-size: var(--medium-font);
+	font-size: var(--regular-font);
 	color: var(--darkest-gray);
 	border: none;
 }
